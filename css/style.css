@@ -137,15 +137,18 @@ header{
 }
 
 
-#hero-title .subtitulo{
+#hero-title .subtitulo,
+#hero-slides .subtitulo{
 	color: #fff;
 }
-#hero-title h1{
+#hero-title h1,
+#hero-slides h1{
 	font-size: 65px;
 	color: #fff;
 	font-weight: 200;
 }
-#hero-title p{
+#hero-title p,
+#hero-slides p{
 	color: #fff;
 	font-size: 20px;
 	padding: 0 20%;
@@ -227,6 +230,10 @@ footer h3{
 	background-color: var(--color-hover-menu);
 }
 
+#hero-slides .overlay{
+	background-color: rgba(0,0,0,0.70);
+	height: 100%;
+}
 
 
 
